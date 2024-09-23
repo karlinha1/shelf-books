@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #05392d;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #05392d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #04592b;
+}
+
+#books-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#books-list li {
+    background-color: #c6dbdc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    input {
+        margin-right: 5px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}

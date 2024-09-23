@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Biblioteca</title>
+</head>
+<body>
+    <h1>Biblioteca de Livros</h1>
+
+    <label for="bookTitle"></label><input type="text" id="bookTitle" placeholder="Título do Livro">
+    <label for="bookAuthor"></label><input type="text" id="bookAuthor" placeholder="Autor do Livro">
+    <button onclick="addBook()">Adicionar Livro</button>
+
+    <h2>Lista de Livros</h2>
+    <ul id="books-list"></ul>
+
+    <label for="searchTerm"></label><input type="text" id="searchTerm" placeholder="Pesquisar">
+    <button onclick="searchBooks()">Pesquisar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
